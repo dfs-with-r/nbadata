@@ -1,0 +1,35 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# nbadata
+
+This package contains data used in the book [DFS with R: Building an NBA Projection System](https://leanpub.com/dfswithr). It currently consists of the following data tables:
+
+- `nbafpts`: player fantasy points for each game in the 2017-2018 NBA season
+
+## Installation
+
+You can install the most current version of nbadata from [GitHub](https://github.com/dfs-with-r/nbadata) with:
+
+```{r eval=FALSE}
+devtools::install_github("dfs-with-r/nbadata")
+```
+
+## Example
+Load a data frame of fantasy points from the 2017-2018 NBA season. 
+
+```{r}
+library(nbadata)
+head(nbafpts)
+```

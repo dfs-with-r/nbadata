@@ -1,0 +1,23 @@
+Package: nbadata
+Title: NBA Data for the book DFS with R
+Version: 0.0.1
+Authors@R: 
+    person(given = "Robert",
+           family = "Zamora",
+           role = c("aut", "cre"),
+           email = "zamora.rr@gmail.com")
+Description: NBA data from the 2017-2018 season for usage in
+    daily fantasy sports.
+License: CC0
+URL: http://github.com/dfs-with-r/nbadata
+BugReports: https://github.com/dfs-with-r/nbadata
+Depends: 
+    R (>= 2.10)
+Imports: 
+    tibble
+Suggests: 
+    dplyr
+Encoding: UTF-8
+Language: en-US
+LazyData: true
+RoxygenNote: 6.1.0
