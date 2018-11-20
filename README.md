@@ -3,7 +3,7 @@
 nbadata
 =======
 
-This package contains data used in the book [DFS with R: Building an NBA Projection System](https://leanpub.com/dfswithr). It currently consists of the following data tables:
+This package contains NBA data that can be used for analysis and playing Daily Fantasy Sports. It currently consists of the following data tables:
 
 -   `nbafpts`: player fantasy points for each game in the 2017-2018 NBA season
 

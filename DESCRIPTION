@@ -1,5 +1,5 @@
 Package: nbadata
-Title: NBA Data for the book DFS with R
+Title: NBA Data for use in DFS
 Version: 0.0.1
 Authors@R: 
     person(given = "Robert",
