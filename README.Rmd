@@ -29,7 +29,11 @@ devtools::install_github("dfs-with-r/nbadata")
 ## Example
 Load a data frame of fantasy points from the 2017-2018 NBA season. 
 
+```{r echo=FALSE}
+library(tibble)
+```
+
 ```{r}
 library(nbadata)
-head(nbafpts)
+nbafpts
 ```
