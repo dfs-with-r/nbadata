@@ -12,6 +12,7 @@ nbafpts <- nba_orig %>%
     player_fn = playFNm,
     player_ln = playLNm,
     mpg = playMin,
+    pos = playPos,
     pts = playPTS,
     reb = playTRB,
     ast = playAST,
@@ -28,7 +29,7 @@ nbafpts <- nba_orig %>%
     fpts_fd = pts + 1.20*reb + 1.5*ast + 3*stl + 3*blk - 1.0*tov
   ) %>%
   select(
-    game_date, team, player_name, mpg, fpts_dk, fpts_fd
+    game_date, team, player_name, pos, mpg, fpts_dk, fpts_fd
   )
 
 usethis::use_data(nbafpts, overwrite = TRUE)

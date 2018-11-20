@@ -8,6 +8,7 @@
 #' \item{game_date}{Date game played}
 #' \item{team}{Team three-letter abbreviation}
 #' \item{player_name}{Player first and last name}
+#' \item{pos}{Player position during game}
 #' \item{mpg}{Minutes per game}
 #' \item{fpts_dk}{DraftKings fantasy points}
 #' \item{fpts_fd}{FanDuel fantasy points}

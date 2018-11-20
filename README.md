@@ -24,18 +24,18 @@ Load a data frame of fantasy points from the 2017-2018 NBA season.
 ``` r
 library(nbadata)
 nbafpts
-#> # A tibble: 26,109 x 6
-#>    game_date  team  player_name            mpg fpts_dk fpts_fd
-#>    <date>     <chr> <chr>                <int>   <dbl>   <dbl>
-#>  1 2017-10-17 BOS   Jaylen Brown            40   38       38.2
-#>  2 2017-10-17 BOS   Kyrie Irving            39   50.5     48.8
-#>  3 2017-10-17 BOS   Jayson Tatum            37   32.5     29.5
-#>  4 2017-10-17 BOS   Al Horford              32   27.2     27.9
-#>  5 2017-10-17 BOS   Gordon Hayward           5    3.25     3.2
-#>  6 2017-10-17 BOS   Marcus Smart            35   34.8     37.3
-#>  7 2017-10-17 BOS   Terry Rozier            20   22.2     24.6
-#>  8 2017-10-17 BOS   Aron Baynes             19   14.8     14.5
-#>  9 2017-10-17 BOS   Jesusemilore Ojeleye     9    0        0  
-#> 10 2017-10-17 BOS   DeShane Larkin           5    1.25     1.2
+#> # A tibble: 26,109 x 7
+#>    game_date  team  player_name          pos     mpg fpts_dk fpts_fd
+#>    <date>     <chr> <chr>                <chr> <int>   <dbl>   <dbl>
+#>  1 2017-10-17 BOS   Jaylen Brown         F        40   38       38.2
+#>  2 2017-10-17 BOS   Kyrie Irving         PG       39   50.5     48.8
+#>  3 2017-10-17 BOS   Jayson Tatum         SF       37   32.5     29.5
+#>  4 2017-10-17 BOS   Al Horford           C        32   27.2     27.9
+#>  5 2017-10-17 BOS   Gordon Hayward       SF        5    3.25     3.2
+#>  6 2017-10-17 BOS   Marcus Smart         PG       35   34.8     37.3
+#>  7 2017-10-17 BOS   Terry Rozier         PG       20   22.2     24.6
+#>  8 2017-10-17 BOS   Aron Baynes          C        19   14.8     14.5
+#>  9 2017-10-17 BOS   Jesusemilore Ojeleye PF        9    0        0  
+#> 10 2017-10-17 BOS   DeShane Larkin       PG        5    1.25     1.2
 #> # ... with 26,099 more rows
 ```
